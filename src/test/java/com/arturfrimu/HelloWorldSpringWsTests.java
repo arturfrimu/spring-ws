@@ -11,7 +11,7 @@ import com.arturfrimu.ws.client.HelloWorldClient;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
-public class SpringWsApplicationTests {
+public class HelloWorldSpringWsTests {
 
   @Autowired
   private HelloWorldClient helloWorldClient;
